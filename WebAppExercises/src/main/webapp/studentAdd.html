@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add student</title>
+
+</head>
+<body>
+	<h1>Add Student</h1>
+	<form name="formStudent"
+		action="http://localhost:8080/WebAppExercises/addStudent"
+		method="POST">
+		<label for="id">Id:</label><br> <input type="text" id="id"
+			name="id"><br> <label for="fname">First name:</label><br>
+		<input type="text" id="firstname" name="firstname"><br> <label
+			for="lname">Last name:</label><br> <input type="text"
+			id="lastname" name="lastname"> <br> <label for="street">Street</label>
+		<br> <input type="text" id="street" name="street"> <br>
+		<label for="postcode">Postcode</label> <br> <input type="text"
+			id="postcode" name="postcode"> <br> <label
+			for="postoffice">Postoffice</label> <br> <input type="text"
+			id="postoffice" name="postoffice"> <br> <input
+			id="btSubmit" type="submit" value="Submit" /> <input action="action"
+			onclick="window.history.go(-1); return false;" type="submit"
+			value="Cancel" />
+	</form>
+	<script src="studentAdd.js"></script>
+</body>
+</html>
